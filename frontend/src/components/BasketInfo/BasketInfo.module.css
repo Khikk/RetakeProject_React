@@ -1,0 +1,132 @@
+/* BasketInfo.module.css */
+
+.basketInfoContainer{
+    display: flex;
+    max-width: 1440px;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.form_cart {
+    display: flex;
+    /* position:absolute; */
+    flex-direction: column;
+    justify-content: flex-end;
+    bottom: 289px;
+    height: 580px; 
+    width: 550px; 
+    margin-left: 200px;
+    padding: 20px; 
+    box-sizing: border-box; 
+    background-color: #f3f3f3; 
+    border: 1px solid #ddd; 
+    /* margin-left: 600px; */
+  }
+  
+.descr_order{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title_total{
+  display: flex;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  color: #8B8B8B;
+}
+
+.total_order{
+  display: flex;
+  font-family: Montserrat;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 70.4px;
+  text-align: left;
+  color: #282828;
+}
+
+.input_fields{
+  margin-top: 21px;
+}
+
+  .inputField {
+    margin-bottom: 10px;
+    width: 100%; 
+    height: 60px; 
+    box-sizing: border-box; 
+    text-align: start;
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+  }
+  
+  .inputField::placeholder{
+    padding-left: 22px;
+  }
+
+  .sendOrderBtn {
+    width: 100%; 
+    height: 60px; 
+    box-sizing: border-box; 
+    margin-top: 10px;
+    font-size: 20px; 
+    cursor: pointer;
+    background-color:#339933;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 16px 32px;
+    transition: opacity 0.5s;
+  }
+  
+  .modalContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #339933;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    border-radius: 25px;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: 50px;
+    width: 518px; 
+    height: 250px; 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+
+
+  
+  .closeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(202, 201, 201);
+    width: 80px; 
+    height: 40px; 
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    padding: 12px 24px;
+
+  }
+
+  .modalContent:hover {
+    transform: scale(1.05); 
+    background: var(--black, #282828);
+  }
+
+  .sendOrderBtn:hover {
+    opacity: 1;
+    background: var(--black, #282828);
+  }

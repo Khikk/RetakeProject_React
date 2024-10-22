@@ -1,0 +1,107 @@
+.productImage{
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.cartItem {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #DDDDDD;
+  }
+
+.cart_info{
+  display: flex;
+  flex-direction: column;
+  min-width: 548px;
+  height: 180px;
+}
+
+
+  .item_name{
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+
+  }
+
+  .count_price_item{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 34px;
+  }
+
+  .price_cart {
+    font-family: Montserrat;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 44px;
+
+  }
+  
+
+  h2 {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 45px;
+    width: 200px;
+    height: 58px;
+    border: 1px solid #DDDDDD;
+  
+  }
+  
+
+  .minus_item{
+    font-size: 36px;
+    color: #8B8B8B;
+    padding: 10px;
+    height: 58px;
+    width: 58px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;;
+  }
+
+.input_item{
+  font-family: Montserrat;
+  font-size: 20px;
+  width: 96px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  border: none;
+}
+
+  .plus_item{
+    font-size: 36px;
+    color: #8B8B8B;
+    padding: 10px;
+    height: 58px;
+    width: 58px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+  }
+
+
+
+  
+  input {
+    width: 50px;
+    text-align: center;
+  }
+  
